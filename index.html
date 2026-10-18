@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#04070c" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content="SpaceRealm 星海境界 — 一个程序化、无缝、可自由破坏的星际沙盒宇宙。" />
+    <title>SPACE REALM · 星海境界</title>
+  </head>
+  <body>
+    <div id="boot">
+      <div class="boot-mark"><span></span><span></span><span></span></div>
+      <div class="boot-title">SPACE REALM</div>
+      <div class="boot-bar"><i></i></div>
+      <div class="boot-sub">正在校准星历坐标系…</div>
+    </div>
+    <div id="app">
+      <div id="screen-root"></div>
+      <canvas id="global-stars"></canvas>
+      <div id="vignette"></div>
+      <div id="noise"></div>
+      <div id="toast-layer"></div>
+      <div id="modal-layer"></div>
+      <div id="command-layer"></div>
+      <div id="transition-curtain"><div class="curtain-lines"></div><div class="curtain-text"></div></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
